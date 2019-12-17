@@ -131,8 +131,9 @@ background: linear-gradient(176deg, rgba(10,82,15,1) 0%, rgba(169,132,46,1) 37%,
 {
     /* position: fixed; */
     width: 430px;
-    height: 100px;
-    margin: 150px auto;
+    height: 200px;
+    margin: 250px auto;
+    padding-top: 100px;
     width: 75%;
 }
 
