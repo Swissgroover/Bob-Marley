@@ -3,7 +3,10 @@ html {
     height: 100%;
     font-size: 20px;
 }
-
+#head{
+    width: 100%;
+    font: bold 16px sans-serif;
+}
 /* .container{
     margin: auto;
     background: rgb(10,82,15);
@@ -33,7 +36,7 @@ html {
     height: 100%;
     width: 90%;
 }
-#pineapple-photos{
+#pineapple-photos {
     width: 100%;
     margin: auto;
     display: flex;
@@ -129,7 +132,8 @@ background: linear-gradient(176deg, rgba(10,82,15,1) 0%, rgba(169,132,46,1) 37%,
     /* position: fixed; */
     width: 430px;
     height: 100px;
-    margin: 75px auto;
+    margin: 150px auto;
+    width: 75%;
 }
 
 /* #bg-artwork

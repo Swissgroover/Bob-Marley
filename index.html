@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="head">
         
         <button>
             <img class="icecreame" src="">
@@ -26,15 +26,15 @@
 
 
 <div id="banana-about">
-<div id="banana-photo"><img src="about1.png"></div>
+<div id="banana-photo"><img src="/photos/about1.png"></div>
 <div id="banana-txt"></div>
 
 </div>
    
 
      <div id="app-cover">
-            <!-- <div id="bg-artwork"></div>
-            <div id="bg-layer"></div> -->
+            <div id="bg-artwork"></div>
+            <div id="bg-layer"></div>
             <div id="player">
                 <div id="player-track">
                     <div id="album-name"></div>
@@ -51,7 +51,7 @@
                 </div>
                 <div id="player-content">
                      <div id="album-art">
-                        <img src="bob-cd.png" class="active" id="_1">
+                        <img src="/photos/bob-cd.png" class="active" id="_1">
                         <div id="buffer-box">Buffering ...</div>
                     </div> 
                     <div id="player-controls">
@@ -68,6 +68,8 @@
                         <div class="control">
                             <div class="button" id="play-next">
                                 <i class="fas fa-forward"></i>
+
+                            
                             </div>
                         </div>
                     </div>
@@ -75,8 +77,27 @@
             </div>
         </div>
 
+            <audio id="player-0">
+                    <source src="Bob-no-woman-no-cry.mp3"
+                    type="audio/mpeg">
+                    <source src="Bob-no-woman-no-cry.mp3"
+                    type="audio/ogg">
+            </audio>
+            <audio id="player-1">
+                    <source src="Bob Marley - Could You Be Loved (HQ).mp3"
+                    type="audio/mpeg">
+                    <source src="Bob Marley - Could You Be Loved (HQ).mp3"
+                    type="audio/ogg">
+            </audio>
     
-<div id="pineapple-photos"><img src="photos.png">
+            <audio id="player-2">
+                    <source src="Bob Marley - Buffalo soldier.mp3"
+                    type="audio/mpeg">
+                    <source src="Bob Marley - Buffalo soldier.mp3"
+                    type="audio/ogg">
+            </audio>
+    
+<div id="pineapple-photos"><img src="/photos/photos.png">
 
 
 </div>
@@ -87,7 +108,7 @@
     <footer class="footer-distributed">
  
 			<div class="footer-left">
-          <img src="brand.gif">
+          <img src="/photos/brand.gif">
 				<!-- <h3>About<span>Bob</span></h3> -->
  
 				<p class="footer-company-name">© 2019 School project</p>
@@ -124,6 +145,7 @@
 		</footer>
         
     </body>
+    <script src="javascript.js"></script>
     <script>
        
         const btn = document.querySelector('button')
