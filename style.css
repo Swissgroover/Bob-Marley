@@ -287,7 +287,7 @@ body {
     z-index: 2;
 }
 
-#album-art {
+#album-art { 
     position: absolute;
     top: -40px;
     width: 115px;
