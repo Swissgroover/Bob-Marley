@@ -245,9 +245,13 @@ ctrl_play_pause.onclick = function() {
     if (pause == true) {
         player.play();
         pause = false;
+        i.attr('fas fa-pause');
+        audio.play();
     } else {
         player.pause();
         pause = true;
+        i.attr('fas fa-play');
+        audio.pause();
     }
 }
 
@@ -267,6 +271,8 @@ ctrl_previous.onclick = function() {
     ctrl_play_pause.click();
 }
 
+
+
 const btn = document.querySelector('button')
 
 btn.addEventListener('click', openMenu)
@@ -274,3 +280,6 @@ btn.addEventListener('click', openMenu)
 function openMenu() {
     document.querySelector('nav').classList.toggle('active')
 }
+
+
+       
