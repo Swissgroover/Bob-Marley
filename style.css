@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     height: 100%;
     font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #head {
@@ -66,7 +67,6 @@ nav {
 
 .icecreame {
     width: 100%;
-    height: 2px;
     background-color: black;
     position: relative;
 }
@@ -114,10 +114,13 @@ button {
 }
 
 body {
-    font-family: Helvetica, Arial;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    background: rgb(10, 82, 15);
-    background: linear-gradient(176deg, rgba(10, 82, 15, 1) 0%, rgba(169, 132, 46, 1) 37%, rgba(169, 132, 46, 1) 62%, rgba(134, 0, 32, 1) 71%, rgba(134, 0, 32, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(176deg, rgba(10, 82, 15, 1) 0%, rgba(169, 132, 46, 1) 37%, rgba(169, 132, 46, 1) 62%, rgba(134, 0, 32, 1) 71%, rgba(134, 0, 32, 1) 100%);
+
 }
 
 
