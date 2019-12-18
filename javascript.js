@@ -267,4 +267,10 @@ ctrl_previous.onclick = function() {
     ctrl_play_pause.click();
 }
 
-    
+const btn = document.querySelector('button')
+
+btn.addEventListener('click', openMenu)
+
+function openMenu() {
+    document.querySelector('nav').classList.toggle('active')
+}
